@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./Pages/Home";
-import { NewUser } from "./Pages/NewUser";
+import { Menu } from "./Pages/Menu";
 
 
 const router = createBrowserRouter([
@@ -9,8 +9,8 @@ const router = createBrowserRouter([
         element: <Home/>
     },
     {
-        path: "/newUser",
-        element: <NewUser/>
+        path: "/Menu",
+        element: <Menu/>
     }
 ])
 
