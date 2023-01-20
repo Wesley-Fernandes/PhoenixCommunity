@@ -1,13 +1,15 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./Profile.scss"
 import logo from "../../Images/logo.png"
 export const Profile = () => {
+    const navigate = useNavigate()
     const img_guts = "https://lh5.googleusercontent.com/-dzYenkdOqoI/AAAAAAAAAAI/AAAAAAAAFM8/xEF70U3IZP0/photo.jpg"
   return (
     <div className='ProfilePage'>
         <main>
             <div className='InfoHud'>
-                <img src={logo} alt="imagem da phoenix"/>
+                <img src={logo} alt="imagem da phoenix" onClick={()=>{navigate("/")}}/>
                 <div className='BasicInfo'>
                     <img src={img_guts} alt="Imagem do usuario" />
                     <div className='Informations'>
