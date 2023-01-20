@@ -1,0 +1,103 @@
+.HomePage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../Images/background1.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+    .phoenix-logo{
+        width: 150px;
+        filter: drop-shadow(0 0 3px #275D8C);
+    }
+
+
+    .formulary{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        width: 400px;
+        overflow: hidden;
+        @media (max-width: 768px) {
+            width: 95%;
+        }
+        min-height: 150px;
+        padding: 20px 10px;
+        border: 1px solid #275D8C;
+        border-radius: 3px;
+        
+
+
+        p{
+            width: 400px;
+            @media (max-width: 768px) {
+                width: 110%;
+            }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: 600;
+            color: #EBF0F2;
+            background-color: #275D8C;
+            backdrop-filter: blur(40px);
+            margin-bottom: 1rem;
+        }
+
+
+
+        input{
+            width: 100%;
+            padding: 0.3rem;
+            margin: 0.4rem 0;
+            border-radius: 3px;
+            border: none;
+            height: 40px;
+            outline: 1px solid rgba(0, 0, 0, 0.13);
+        }
+
+        hr{
+            border-color: rgb(82, 182, 248);
+            width: 100%;
+        }
+
+        span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #4E98D9;
+            width: 100%;
+            @media (max-width: 768px) {
+                margin: 1rem;
+            }
+            border-radius: 3px;
+            color: #BDD9F2;
+            font-weight: 600;
+            padding: 0.3rem;
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+            margin: 0.5rem;
+            box-shadow: 0 0 0 1px #275D8C;
+        }
+
+        span:hover{
+            background-color: #275D8C;
+            transition: 0.5s ease-in-out;
+            color: white;
+            
+        }
+
+        small{
+            color: #BDD9F2;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+            margin-top: 0.5rem;
+        }
+    }
+
+        
+    
+}
