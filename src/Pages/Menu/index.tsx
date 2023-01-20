@@ -1,11 +1,14 @@
 import React from 'react'
 import logo from '../../Images/logo.png'
+import { useNavigate } from 'react-router-dom'
 import "./Menu.scss"
 export const Menu = () => {
+    const navigate = useNavigate()
+
   return (
     <div className='MenuPage'>
         <main>
-            <img src={logo} alt="imagem de uma phoenix"/>
+            <img src={logo} alt="imagem de uma phoenix" onClick={()=>{navigate('/profile')}}/>
             <section>
                 <h2>Você precisa de ajuda?</h2>
                 <hr />
