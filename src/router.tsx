@@ -6,11 +6,11 @@ import { Menu } from "./Pages/Menu";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home/>
+        element: <Menu/>
     },
     {
-        path: "/Menu",
-        element: <Menu/>
+        path: "/home",
+        element: <Home/>
     }
 ])
 
