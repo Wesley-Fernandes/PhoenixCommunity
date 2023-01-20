@@ -32,13 +32,13 @@ export const Menu = () => {
                 <h2>Sistemas</h2>
                 <hr />
                 <ul>
-                    <li>Sistema de Banlist</li>
-                    <li>Sistema Limitador</li>
-                    <li>Sistema de Batalha</li>
-                    <li>Sistema de Pet's</li>
-                    <li>Sistema de Guildas</li>
-                    <li>Sistema Monetario</li>
-                    <li>Sistema de Dominação</li>
+                    <li><a href="http://aminoapps.com/p/2hgi5e0">Sistema de Banlist</a></li>
+                    <li><a href="http://aminoapps.com/p/uwaf56z">Sistema Limitador</a></li>
+                    <li><a href="http://aminoapps.com/p/0d7e9f">Sistema de Batalha</a></li>
+                    <li><a href="http://aminoapps.com/p/ydpkvo">Sistema de Pet's</a></li>
+                    <li><a href="http://aminoapps.com/p/acc4pp">Sistema de Guildas</a></li>
+                    <li><a href="http://aminoapps.com/p/5bgk0bk">Sistema Monetario</a></li>
+                    <li><a href="http://aminoapps.com/p/tbem4a">Sistema de Dominação</a></li>
                 </ul>
             </section>
         </main>
