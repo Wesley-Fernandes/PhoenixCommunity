@@ -40,7 +40,7 @@ export const Menu = () => {
                     <li><a href="http://aminoapps.com/p/0d7e9f">Sistema de Batalha</a></li>
                     <li><a href="http://aminoapps.com/p/ydpkvo">Sistema de Pet's</a></li>
                     <li><a href="http://aminoapps.com/p/acc4pp">Sistema de Guildas</a></li>
-                    <li><a href="http://aminoapps.com/p/5bgk0bk">Sistema Monetario</a></li>
+                    <li><a onClick={()=>{navigate("/sistema/monetario")}}>Sistema Monetario</a></li>
                     <li><a href="http://aminoapps.com/p/tbem4a">Sistema de Dominação</a></li>
                 </ul>
             </section>
