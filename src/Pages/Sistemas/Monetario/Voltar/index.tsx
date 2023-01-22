@@ -4,7 +4,7 @@ export const Voltar = () => {
     const Navigate = useNavigate()
   return (
     <div className='NavigationBar'>
-        <button onClick={()=>{Navigate("/")}}>Voltar</button>
+        <button className='Button' onClick={()=>{Navigate("/")}}>Voltar</button>
     </div>
   )
 }

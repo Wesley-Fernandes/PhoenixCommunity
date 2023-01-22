@@ -82,23 +82,24 @@
                 }
             }
         }
-
-        button{
-            padding: 0.5rem 1.2rem;
-            border: none;
-            border-radius: 40px;
-            cursor: pointer;
-            background-color: #0786c0;
-            font-weight: 600;
-            outline: none;
-            transition: 1s ease-in-out;
-            &:hover{
-
-                background-color: #275D8C;
-                color: white;
-                outline: 3px solid white;
+        .Button{
+                text-decoration: none;
+                padding: 0.5rem 1.2rem;
+                color: black;
+                border: none;
+                border-radius: 40px;
+                cursor: pointer;
+                background-color: #0786c0;
+                font-weight: 600;
+                outline: none;
                 transition: 1s ease-in-out;
-            }
+            
+        }
+        .Button:hover{
+            background-color: #275D8C;
+            color: white;
+            outline: 3px solid white;
+            transition: 1s ease-in-out;
         }
 
     }
