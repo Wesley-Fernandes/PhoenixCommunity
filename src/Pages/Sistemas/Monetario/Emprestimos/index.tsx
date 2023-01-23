@@ -12,7 +12,7 @@ export const Emprestimos = () => {
 
             <div className='EmprestimosTipos'>
                 <h3>Tabela de juros</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quos, itaque, tempora ipsa esse repudiandae at culpa atque eum quo provident, maxime molestias natus cupiditate vero? Aut consequuntur iure itaque?</p>
+                <p>Serão aplicados juros relativos a quantidade de coins que o usúario pediu ao banco que devem ser pagos posteriormente.</p>
                 <ul>
                     <li><strong> -</strong> 10% de juros: 1.000 a 5.000 coins.</li>
                     <li><strong> -</strong> 30% de juros: 6.000 a 10.000 coins.</li>

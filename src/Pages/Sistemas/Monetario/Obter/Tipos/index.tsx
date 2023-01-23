@@ -6,7 +6,7 @@ type TipoType ={
 }
 export const Tipo = ({title, description}:TipoType) => {
   return (
-    <div>
+    <div className='EmprestimosTipos'>
         <h3>{title}</h3>
         <p>{description}</p>
     </div>
