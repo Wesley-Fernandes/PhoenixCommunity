@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../Images/logo.png'
+import logo from '../../Images/logo2.png'
 import { useNavigate } from 'react-router-dom'
 import "./Menu.scss"
 export const Menu = () => {
@@ -10,18 +10,17 @@ export const Menu = () => {
         <main>
             <img src={logo} alt="imagem de uma phoenix" onClick={()=>{navigate('/profile')}}/>
             <section>
-                <h2>Você precisa de ajuda?</h2>
-                <hr />
+                <h2>GUIA DE AJUDA</h2>
                 <ul>
                     <li> <a href="http://aminoapps.com/p/4rovbd">Regras da comunidade</a></li>
-                    <li>Dicas para novos usuarios</li>
+                    <li> <a href="">Dicas para novos usuarios</a></li>
                     <li><a href="http://aminoapps.com/p/vwfx8h">Falar com a Staff</a></li>
                     <li><a href="http://aminoapps.com/p/4rovbd">Fazer uma denuncia</a></li>
+                    <li><a onClick={()=>{navigate("/home")}}>Sou moderador</a></li>
                 </ul>
             </section>
             <section>
                 <h2>Plataformas</h2>
-                <hr />
                 <ul>
                     <li> <a href="http://aminoapps.com/p/7qw8in">Plataforma Destaque</a></li>
                     <li> <a href="http://aminoapps.com/p/jh5vh7b">Plataforma de Chats</a></li>
@@ -33,7 +32,6 @@ export const Menu = () => {
             </section>
             <section>
                 <h2>Sistemas</h2>
-                <hr />
                 <ul>
                     <li><a href="http://aminoapps.com/p/2hgi5e0">Sistema de Banlist</a></li>
                     <li><a href="http://aminoapps.com/p/uwaf56z">Sistema Limitador</a></li>
