@@ -3,6 +3,7 @@ import { Input } from '../../Components/Input'
 import { useNavigate } from 'react-router-dom'
 import Logo from "../../Images/logo2.png"
 import './Home.scss'
+import { Button } from '../../Components/Button'
 export const Home = () => {
   const navigate = useNavigate()
 
@@ -14,9 +15,7 @@ export const Home = () => {
       <form className='formulary'>
         <input type="text"  placeholder='digite o seu e-mail ou login' required autoSave='false'/>
         <input type="password" placeholder="digite sua senha" required/>
-        <span>
-          ENTRAR
-        </span>
+        <Button title='Fazer login' key={"login"} rote="/dashboard"/>
         <small onClick={()=>{navigate("/")}}>Não tem conta? não vai ter!</small>
       </form>
     </div>

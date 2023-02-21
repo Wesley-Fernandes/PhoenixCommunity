@@ -1,0 +1,43 @@
+.UserBanlist{
+    height: 100vh;
+    overflow: hidden;
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        background-color: black;
+
+        input{
+            height: 48px;
+            width: 53%;
+            border: none;
+            font-size: 1.2rem;
+            text-indent: 10px;
+        }
+        .Button-Back{
+            padding: 1rem 1rem;
+            border: none;
+            border-radius: 15px 0 0 15px;
+            margin-right: 0.2rem;
+            background-color: rgb(138, 10, 10);
+            color: white;
+            cursor: pointer;
+        }
+        .Button-Search{
+            padding: 1rem 1rem;
+            border: none;
+            margin-left: 0.2rem;
+            border-radius: 0 15px 15px 0;
+            background-color: rgb(138, 10, 10);
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    main{
+        display: flex;
+        background-color: #272727;
+        height: 100%;
+    }
+}

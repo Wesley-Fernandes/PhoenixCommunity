@@ -1,0 +1,27 @@
+.ListItemComponent{
+    margin: 0.5rem 0;
+    background: linear-gradient(to left, rgb(105, 6, 20), hsl(356deg 83% 39%));
+    padding: 0.4rem 0.8rem;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    color: #ffffffd2;
+    transition: 0.5s ease-in-out;
+    display: flex;
+
+    a{
+        text-decoration: none;
+        width: 100%;
+        font-weight: 100;
+        color: #ffffffab;
+        align-self: flex-start;
+
+    }
+
+    &:hover{
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        color: #EBF0F2;
+    }
+
+}

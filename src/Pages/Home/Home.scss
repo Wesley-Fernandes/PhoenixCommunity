@@ -16,18 +16,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+
         .phoenix-logo{
             margin-bottom: -40;
-            width: 180px;
+            width: 170px;
             position: relative;
-            top: 40px;
-            font-size: 2.2rem;
+            top: 25px;
         }
-    
-    
+
+
         h2{
-            
+
             position: relative;
             top: 25px;
             font-size: 2.2rem;
@@ -35,7 +34,7 @@
             font-weight: normal;
             color: #ffbaba;
         }
-    
+
         .formulary{
             display: flex;
             flex-direction: column;
@@ -55,12 +54,12 @@
             padding: 0 10px;
             padding-top: 25px;
             padding-bottom: 0;
-    
+
             border-radius: 20px;
-            
-    
-        
-    
+
+
+
+
             p{
                 width: 400px;
                 @media (max-width: 768px) {
@@ -76,9 +75,9 @@
                 backdrop-filter: blur(40px);
                 margin-bottom: 1rem;
             }
-    
-    
-    
+
+
+
             input{
                 width: 90%;
                 padding: 0.1rem 0;
@@ -90,51 +89,25 @@
                 border: none;
                 height: 35px;
                 outline: 1px solid rgba(0, 0, 0, 0.13);
-    
-    
+
+
                 &::placeholder{
                     color: rgba(255, 255, 255, 0.678);
                     font-size: 0.9rem;
                 }
-                
+
             }
             input::-webkit-autofill{
                 background: linear-gradient(to left, rgb(104, 2, 2), red);
             }
-    
-            span{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: linear-gradient(to up, rgb(104, 2, 2), red) !important;
-                height: 45px;
-    
-                @media (max-width: 768px) {
-                    margin: 0.2rem;
-                }
-                border-radius: 17px;
-                color: hsl(357deg 51% 73%);
-                background: linear-gradient( hsl(356deg 83% 42%), hsl(351deg 86% 28%));
-                font-weight: 500;
-                font-size: 1.3rem;
-                padding: 0 2rem;
-                cursor: pointer;
-                transition: 0.5s ease-in-out;
-                margin: 0.5rem;
-    
-            }:hover{
-                background-color: rgb(61, 1, 5);
-                transition: 0.5s ease-in-out;
-                color: white;
-                
-            }
+
             input:-webkit-autofill{
                 background: linear-gradient( rgb(206, 7, 7), rgb(104, 2, 2));
             }
             input:-webkit-autofill:hover{
                 background: linear-gradient( rgb(206, 7, 7), rgb(104, 2, 2));
             }
-    
+
             small{
                 color: #ffffff;
                 text-transform: uppercase;
@@ -146,9 +119,9 @@
                 color: rgb(253, 151, 151);
             }
         }
-    
-            
-        
+
+
+
     }
-    
+
 }

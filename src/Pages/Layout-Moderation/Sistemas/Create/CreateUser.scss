@@ -1,0 +1,22 @@
+.CreateUser{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: white;
+    }
+
+    input{
+        height: 40px;
+        width: 95%;
+        border: none;
+        outline: none;
+        text-indent: 0.5rem;
+        font-size: 1.1rem;
+
+        margin: 0.2rem 0;
+    }
+
+}
