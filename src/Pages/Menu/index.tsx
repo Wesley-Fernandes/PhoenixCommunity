@@ -23,7 +23,6 @@ export const Menu = () => {
                 <h2>Plataformas</h2>
                 <ul>
                     <li> <a href="http://aminoapps.com/p/7qw8in">Plataforma Destaque</a></li>
-                    <li> <a href="http://aminoapps.com/p/1q3y9v">Plataforma de Sugestão</a></li>
                     <li> <a href="http://aminoapps.com/p/jh5vh7b">Plataforma de Chats</a></li>
                     <li> <a href="http://aminoapps.com/p/5063w4s">Plataforma Re-destaque</a></li>
                     <li> <a href="http://aminoapps.com/p/k1735n">Plataforma de Tags</a></li>
@@ -35,6 +34,7 @@ export const Menu = () => {
                 <h2>Sistemas</h2>
                 <ul>
                     <li><a href="http://aminoapps.com/p/2hgi5e0">Sistema de Banlist</a></li>
+                    <ListItem title='Banlist' jumper='banlist'/>
                     <li><a href="http://aminoapps.com/p/0d7e9f">Sistema de Batalha</a></li>
                     <li><a href="http://aminoapps.com/p/ydpkvo">Sistema de Pet's</a></li>
                     <li><a href="http://aminoapps.com/p/acc4pp">Sistema de Guildas</a></li>
