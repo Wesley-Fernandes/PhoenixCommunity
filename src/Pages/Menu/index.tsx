@@ -25,7 +25,7 @@ export const Menu = () => {
 
         <ContainerBox>
             <Title>Atalhos Plataformas</Title>
-            <Button href='http://aminoapps.com/p/4rovbd'>
+            <Button href='http://aminoapps.com/p/7qw8in'>
                  Plataforma de Destaque
             </Button>
             <Button href='http://aminoapps.com/p/1q3y9v'>
@@ -71,7 +71,7 @@ export const Menu = () => {
             <Button href='http://aminoapps.com/p/tbem4a'>
                 Sistema de Monetario
             </Button>
-            <Button href='http://aminoapps.com/p/vzd37g'>
+            <Button href='http://aminoapps.com/p/tbem4a'>
                 Sistema de Dominação
             </Button>
         </ContainerBox>
