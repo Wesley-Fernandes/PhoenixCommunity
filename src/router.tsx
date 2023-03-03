@@ -8,6 +8,9 @@ import { Profile } from "./Pages/Profile";
 import { UserBanlist } from "./Pages/Layout-User/Sistemas/UserBanlist";
 import { CreateUser } from "./Pages/Layout-Moderation/Sistemas/Create";
 import { Error404 } from "./Pages/error";
+import Plataform from "./Pages/Plataform";
+import CreatePlataform from "./Pages/CreatePlataform";
+import CreateComponentPlataform from "./Pages/CreatePlataform/CreateComponent";
 
 
 const router = createBrowserRouter([
@@ -18,6 +21,12 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Home />,
+  },{
+    path: "/plataform",
+    element: <Plataform/>,
+  },{
+    path: "/createplataform",
+    element: <CreatePlataform/>
   },
   {
     path: "/banlist",

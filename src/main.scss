@@ -5,3 +5,14 @@
   box-sizing: border-box;
   font-family: Helvetica, 'Poppins', sans-serif;
 }
+#root{
+  height: 100vh;
+  background: linear-gradient(#1E1E1E 30%, black);
+}
+
+.border-archor{
+  border: none;
+}
+.min-400{
+  min-height: 360px;
+}
