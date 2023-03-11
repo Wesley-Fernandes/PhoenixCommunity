@@ -25,22 +25,22 @@ export const Menu = () => {
 
         <ContainerBox>
             <Title>Atalhos Plataformas</Title>
-            <Button href='http://aminoapps.com/p/7qw8in'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/plataforma-de-destaques/ne1L_V6iKI5WlJYQ3bpVddkxRMeG7BZdx'>
                  Plataforma de Destaque
             </Button>
             <Button href='http://aminoapps.com/p/1q3y9v'>
                  Plataforma de Sugestões
             </Button>
-            <Button href='http://aminoapps.com/p/jh5vh7b'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/plataforma-de-chats/pe60_gJipInxY5LGzYv2RNkbvPMkZ0aXxk'>
                  Plataforma de Chats
             </Button>
             <Button href='http://aminoapps.com/p/5063w4s'>
                  Plataforma de Re-destaque
             </Button>
-            <Button href='http://aminoapps.com/p/k1735n'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/plataforma-de-tags/ee5g_qDi6Izdd36qlqbE7VDx467xMD7Rg'>
                  Plataforma de Tags
             </Button>
-            <Button href='http://aminoapps.com/p/5fycs9'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/sistema-de-aliados/N3aN_xnsWIwXmqWaDB8dbWl5bL0GxZmpD'>
                 Plataforma de Aliados
             </Button>
 
@@ -62,16 +62,16 @@ export const Menu = () => {
             <Button href='http://aminoapps.com/p/0d7e9f'>
                 Sistema de Batalha
             </Button>
-            <Button href='http://aminoapps.com/p/ydpkvo'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/sistema-familiar/QvGY_8xfYIpp12NG3Gka605d3VrBqVovl'>
                 Sistema de Pet's
             </Button>
-            <Button href='http://aminoapps.com/p/acc4pp'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/sistema-de-guildas/Xxlw_daCXIkLdRoL12o6E60nQK51DeJdn'>
                 Sistema de Guildas
             </Button>
             <Button href='https://aminoapps.com/c/rpg/page/item/sistema-monetario/N3aN_xnsWIaMV3dDZ1w1bjbEPYNkpjod1w'>
                 Sistema de Monetario
             </Button>
-            <Button href='http://aminoapps.com/p/tbem4a'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/sistema-de-dominacao/Gb3L_MVfVIdb4gxRbYwRkzvDG3mEG2Zpw'>
                 Sistema de Dominação
             </Button>
         </ContainerBox>
