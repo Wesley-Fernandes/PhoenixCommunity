@@ -18,7 +18,7 @@ export const Menu = () => {
     const verificationTwo = isMobileTwo();
   return (
     <>
-    {verificationOne===true && verificationTwo===false ?(
+    {verificationOne?(
         <MenuPage>
         <ContainerBox>
             <Title>Atalhos suporte</Title>
