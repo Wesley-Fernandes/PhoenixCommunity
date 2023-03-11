@@ -11,8 +11,8 @@ export const Menu = () => {
     <MenuPage>
         <ContainerBox>
             <Title>Atalhos suporte</Title>
-                <Button href='http://aminoapps.com/p/vwfx8h'>
-                     Diretrizes
+                <Button href='ndc://guidelines'>
+                     Diretrizes da comunidade
                 </Button>
                 <Button href='http://aminoapps.com/p/4rovbd'>
                      Fazer uma denuncia
@@ -34,7 +34,7 @@ export const Menu = () => {
             <Button href='https://aminoapps.com/c/rpg/page/item/plataforma-de-chats/pe60_gJipInxY5LGzYv2RNkbvPMkZ0aXxk'>
                  Plataforma de Chats
             </Button>
-            <Button href='http://aminoapps.com/p/5063w4s'>
+            <Button href='https://aminoapps.com/c/rpg/page/blog/gateway-de-re-destaque/ge8Z_m4i6uqK1zQ1vXM8kJg6aX1vPvk4zR'>
                  Plataforma de Re-destaque
             </Button>
             <Button href='https://aminoapps.com/c/rpg/page/item/plataforma-de-tags/ee5g_qDi6Izdd36qlqbE7VDx467xMD7Rg'>
@@ -56,8 +56,14 @@ export const Menu = () => {
 
         <ContainerBox>
             <Title>Atalhos Sistemas</Title>
-            <Button href='http://aminoapps.com/p/2hgi5e0'>
+            <Button href='https://aminoapps.com/c/rpg/page/blog/sistema-de-banlist/6pjl_QGfzuGJ4JZDqxaeWRQv7BqeEZ4VRX0'>
                 Sistema de Banlist
+            </Button>
+            <Button href='https://aminoapps.com/c/rpg/page/blog/sistema-limitador/re3B_ZMieu0M0xPJmMxrMX0Jb8vVqJgnZK'>
+                Sistema de limites
+            </Button>
+            <Button href='https://aminoapps.com/c/rpg/page/blog/sistema-de-equipamentos/LJ0o_ErH8ulKQqDMwQl0KMWG7KK4M2RJp'>
+                Sistema de equipamentos
             </Button>
             <Button href='http://aminoapps.com/p/0d7e9f'>
                 Sistema de Batalha
