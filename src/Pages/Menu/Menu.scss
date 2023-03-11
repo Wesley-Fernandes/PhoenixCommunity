@@ -67,7 +67,7 @@
                 width: 100%;
                 border-radius: 20px;
                 background-color: rgba(143, 8, 44, 0.336);
-    
+
                 li{
                     margin: 0.5rem 0;
                     background: linear-gradient(to left, rgb(105, 6, 20), hsl(356deg 83% 39%));
@@ -78,7 +78,7 @@
                     color: #ffffffd2;
                     transition: 0.5s ease-in-out;
                     display: flex;
-                    
+
                     a{
                         text-decoration: none;
                         width: 100%;
@@ -87,15 +87,15 @@
                         align-self: flex-start;
 
                     }
-    
+
                 }:hover{
                     cursor: pointer;
                     transition: 0.5s ease-in-out;
                     color: #EBF0F2;
                 }
-    
+
             }
-        
+
         }
     }::-webkit-scrollbar{
         background-color: #ffffff;
@@ -105,4 +105,9 @@
         background: hsl(356deg 83% 39%);
         border-radius: 10px;
     }
+}
+
+.icon-menu{
+    color: yellow;
+    font-size: 2rem;
 }

@@ -6,9 +6,20 @@ import { ListItem } from '../../Components/List'
 import { Button, ContainerBox, MenuPage, Title } from './styles'
 export const Menu = () => {
     const Href = useNavigate();
+    const isMobileOne = () => {
+        return /Android|iPhone/i.test(navigator.userAgent);
+    }
 
+    const isMobileTwo = () => {
+        return navigator.maxTouchPoints > 0;
+    }
+
+    const verificationOne = isMobileOne();
+    const verificationTwo = isMobileTwo();
   return (
-    <MenuPage>
+    <>
+    {verificationOne===false && verificationTwo===true ?(
+        <MenuPage>
         <ContainerBox>
             <Title>Atalhos suporte</Title>
                 <Button href='ndc://guidelines'>
@@ -19,6 +30,10 @@ export const Menu = () => {
                 </Button>
                 <Button href='http://aminoapps.com/p/eg5lr8'>
                      Modelos de ficha
+                </Button>
+                <Button onClick={()=>Href('./recrutamento')}>
+                    <i className="bi bi-award icon-menu"/>
+                    Fazer recrutamento
                 </Button>
 
         </ContainerBox>
@@ -82,5 +97,15 @@ export const Menu = () => {
             </Button>
         </ContainerBox>
     </MenuPage>
+    ):(
+        <MenuPage>
+            <ContainerBox>
+                <h2 className='text-center text-light'>Sem permissão</h2>
+                <p className='text-light'>
+                    Esse site só é acessivel para disposivos moveis por segurança.</p>
+            </ContainerBox>
+        </MenuPage>
+    )}
+    </>
   )
 }

@@ -11,6 +11,7 @@ import { Error404 } from "./Pages/error";
 import Plataform from "./Pages/Plataform";
 import CreatePlataform from "./Pages/CreatePlataform";
 import CreateComponentPlataform from "./Pages/CreatePlataform/CreateComponent";
+import Recrutamento from "./Pages/Recrutamento";
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/banlist",
     element: <UserBanlist/>
+  },
+  {
+    path: "/recrutamento",
+    element: <Recrutamento/>
   },
   {
     path: "/Dashboard",
