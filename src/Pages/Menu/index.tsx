@@ -68,7 +68,7 @@ export const Menu = () => {
             <Button href='http://aminoapps.com/p/acc4pp'>
                 Sistema de Guildas
             </Button>
-            <Button href='http://aminoapps.com/p/tbem4a'>
+            <Button href='https://aminoapps.com/c/rpg/page/item/sistema-monetario/N3aN_xnsWIaMV3dDZ1w1bjbEPYNkpjod1w'>
                 Sistema de Monetario
             </Button>
             <Button href='http://aminoapps.com/p/tbem4a'>
