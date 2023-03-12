@@ -1,10 +1,15 @@
 import React from "react";
 import { ListItem } from "../../../Components/List";
 import "./Dashboard.scss";
+import RenderDashboardItens from "./VerificationPermissionDashboard";
 
-interface dateInterface{
+export interface IDatesDashboard{
   title: string;
   jumper: string;
+}
+
+export interface IPermission{
+  permission: string;
 }
 export const DashboardPage = () => {
   const dates = [
@@ -17,15 +22,13 @@ export const DashboardPage = () => {
     {title: "Batalha", jumper: "Batalha"},
     {title: "Create user", jumper: "Create"},
   ]
+
+  const permission: string = "agent"
   return (
     <>
-      <ul>
-          {
-            dates.map(({title, jumper}: dateInterface)=>{
-              return <ListItem key={jumper} title={title} jumper={jumper}/>
-            })
-          }
-      </ul>
+      <RenderDashboardItens
+        permission={permission}
+        dates={dates}/>
     </>
 
   );

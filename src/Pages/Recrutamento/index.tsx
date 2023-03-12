@@ -96,7 +96,7 @@ export default function Recrutamento() {
         {active?(
            <form className='main-content' onSubmit={submitter}>
            <p>
-               Bem vindo ao recrutamento da comunidade, tudo será feito a partir desse site porque estamos modernizando a comunidade. Não coletaremos nenhum dado pessoa de sua pessoa. Desejamos toda sorte possivel.
+               Bem vindo ao recrutamento da comunidade, tudo será feito a partir desse site porque estamos modernizando a comunidade. Não coletaremos nenhum dado pessoal de sua pessoa. Desejamos toda sorte possivel.
            </p>
            <div>
                <h2>Regras do questionario</h2>
